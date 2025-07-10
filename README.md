@@ -15,8 +15,8 @@ This is an AI-powered web platform that predicts food surplus in large-scale kit
 
 ## 📁 Project Structure
 
-├──generate.py # Trains and serializes ML models
-├── main.py # FastAPI backend with prediction and submission endpoints
-├── ui.html # Frontend dashboard (Kitchen + NGO)
-├── food_wastage_with_weekend.csv # Dataset (should be in project root)
-├── food.pkl # Serialized model and encoders (auto-generated)
+generate.py # Trains and serializes ML models
+main.py # FastAPI backend with prediction and submission endpoints
+ui.html # Frontend dashboard (Kitchen + NGO)
+food_wastage_with_weekend.csv # Dataset (should be in project root)
+food.pkl # Serialized model and encoders (auto-generated)
